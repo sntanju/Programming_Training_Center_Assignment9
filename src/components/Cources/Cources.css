@@ -1,0 +1,17 @@
+.cources {
+    margin: 5px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+.course {
+    margin: 15px;
+    padding: 5px;
+    border: 1px solid lightblue;
+    border-radius: 10px;
+}
+.course img {
+    margin-top: 10px;
+    width: 200px;
+    height: 200px;
+}
