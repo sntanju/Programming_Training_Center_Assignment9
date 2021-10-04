@@ -12,20 +12,20 @@ const Header = () => {
             
             <div className="nav-bar">
             <NavLink 
-            style={{textDecoration:"none", color:"white", backgroundColor:"teal", margin:"15px", padding:"8px", borderRadius:"5px"}} to="/header">
+            style={{textDecoration:"none", color:"white", backgroundColor:"teal", margin:"5px", padding:"8px", borderRadius:"3px"}} to="/header">
             Home</NavLink>
 
             <NavLink 
-            style={{textDecoration:"none", color:"white", backgroundColor:"teal", margin:"15px", padding:"8px", borderRadius:"5px"}} 
-            to="/coueces">
-            Cources</NavLink>
+            style={{textDecoration:"none", color:"white", backgroundColor:"teal", margin:"5px", padding:"8px", borderRadius:"3px"}} 
+            to="/cources">
+            Courses</NavLink>
 
             <NavLink 
-            style={{textDecoration:"none", color:"white", backgroundColor:"teal", margin:"15px", padding:"8px", borderRadius:"5px"}}  
+            style={{textDecoration:"none", color:"white", backgroundColor:"teal", margin:"5px", padding:"8px", borderRadius:"3px"}}  
             to="/aboutus">
             About Us</NavLink>
             <NavLink 
-            style={{textDecoration:"none", color:"white", backgroundColor:"teal", margin:"15px", padding:"8px", borderRadius:"5px"}}  
+            style={{textDecoration:"none", color:"white", backgroundColor:"teal", margin:"5px", padding:"8px", borderRadius:"3px"}}  
             to="/contactus">
             Contact Us</NavLink>
 

@@ -13,7 +13,8 @@ function App() {
       <Header path="/header"></Header>
         <Switch>
 
-          <Route >
+          <Route exact path="/courses">
+            <Cources></Cources>
 
           </Route>
 
