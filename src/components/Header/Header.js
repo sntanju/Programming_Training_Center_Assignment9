@@ -11,24 +11,25 @@ const Header = () => {
             </div>
             
             <div className="nav-bar">
+            <nav>
             <NavLink 
-            style={{textDecoration:"none", color:"white", backgroundColor:"teal", margin:"5px", padding:"8px", borderRadius:"3px"}} to="/header">
+            style={{textDecoration:"none", color:"white", backgroundColor:"teal", margin:"5px", padding:"8px", borderRadius:"3px"}} to="/home">
             Home</NavLink>
 
             <NavLink 
             style={{textDecoration:"none", color:"white", backgroundColor:"teal", margin:"5px", padding:"8px", borderRadius:"3px"}} 
-            to="/cources">
-            Courses</NavLink>
+            to="/course">
+            Course</NavLink>
 
             <NavLink 
             style={{textDecoration:"none", color:"white", backgroundColor:"teal", margin:"5px", padding:"8px", borderRadius:"3px"}}  
-            to="/aboutus">
+            to="/about">
             About Us</NavLink>
             <NavLink 
             style={{textDecoration:"none", color:"white", backgroundColor:"teal", margin:"5px", padding:"8px", borderRadius:"3px"}}  
             to="/contactus">
             Contact Us</NavLink>
-
+            </nav>
             </div>
             </div>
     );

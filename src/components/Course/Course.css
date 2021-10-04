@@ -1,0 +1,29 @@
+.single-course {
+    margin: 5px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+.each-course {
+    background-color: floralwhite;
+    display: flex;
+    margin: 15px;
+    padding: 5px;
+    border: 1px solid lightblue;
+    border-radius: 10px;
+    width: 500px;
+}
+.each-course img {
+    margin-top: 10px;
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+}
+.detail-btn {
+    background-color: lightseagreen;
+    color: white;
+    border: 1px solid silver;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+}
