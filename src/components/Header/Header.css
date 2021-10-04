@@ -6,3 +6,13 @@
     justify-content: space-between;
   
 }
+.top-courses-heading {
+    background-color: pink;
+    border: 1px solid brown;
+    border-radius: 5px;
+    color: rgb(147, 14, 241);
+    padding: 10px;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 5px;
+}
