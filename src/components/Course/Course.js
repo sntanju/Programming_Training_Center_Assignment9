@@ -5,10 +5,10 @@ import './Course.css'
 
 const Course = () => {
 
-    const [course, setCourse] = useState([]);
+    const [course, setCourse] = useState([]);  //Set Data In A State For Course Router
 
 
-    useEffect( () => {
+    useEffect( () => {      //Loaded Data From API(Fake Data) for Course Router
         fetch('./course.JSON')
         .then(res => res.json())
         .then(data => setCourse(data))
@@ -17,9 +17,10 @@ const Course = () => {
 
     return (
         <div>
+        <h2 className="text-info bg-black ms-3 me-3 p-3">List Of Our All Courses</h2>
         <div className="single-course">
             {
-                course.map( (course) =>
+                course.map( (course) =>  //Use Map For Displaying Courses Router in UI
                 
                     <div className="each-course">
                         <div>

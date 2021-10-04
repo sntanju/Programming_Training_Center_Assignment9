@@ -10,6 +10,8 @@ const About = () => {
             <h5 className="mt-5"><b>About us</b></h5>
             <br />
             <br />
+            
+            {/* Our Mission, Vision and Goals Written Here */}
 
             <h3>Working for the IT Industry</h3>
             <p>

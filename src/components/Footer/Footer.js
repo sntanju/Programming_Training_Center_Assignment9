@@ -4,13 +4,13 @@ import { faPhoneSquareAlt, faEnvelopeOpen } from '@fortawesome/free-solid-svg-ic
 import './Footer.css'
 
 const Footer = () => {
-
-    const cellIcon = <FontAwesomeIcon icon={faPhoneSquareAlt} />
-
+        //Imported Font Awesome Icon And Used Icon For Cellphone & Email
+    const cellIcon = <FontAwesomeIcon icon={faPhoneSquareAlt} />  
     const emailIcon = <FontAwesomeIcon icon={faEnvelopeOpen} />
 
     return (
-        <div className="footer bg-black text-white m-3 p-3">
+            //Used CSS Framework Bootstrap Here For Styling Footer
+        <div className="footer bg-black text-white m-3 p-3">   
             
                 <div className="footer">
                 <p>Copyright &copy; 2021 programming training center</p>

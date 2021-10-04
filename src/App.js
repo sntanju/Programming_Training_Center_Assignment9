@@ -13,48 +13,38 @@ import ContactUs from './ContactUs/ContactUs';
 function App() {
   return (
     <div className="App">
-
+      {/* Routing Starts Here(Used More Than Four Route) */}
       <Router>
-      
+      <Header path="/header"></Header>
         <Switch>
 
-          <Route exact path="/">
-          <Header path="/header"></Header>
-            <Home></Home>
-            <Footer></Footer>
+          <Route exact path="/">        
+            <Home></Home>           
           </Route>
 
-          <Route exact path="/home">
-          <Header path="/header"></Header>
-            <Home></Home>
-            <Footer></Footer>
+          <Route exact path="/home">       
+            <Home></Home>          
           </Route>
 
 
-          <Route exact path="/course">
-          <Header path="/header"></Header>
-            <Course></Course>
-            <Footer></Footer>
+          <Route exact path="/course">         
+           <Course></Course>            
           </Route>
 
-          <Route exact path="/about">
-          <Header path="/header"></Header>
-            <About></About>
-            <Footer></Footer>
+          <Route exact path="/about">          
+            <About></About>          
           </Route>
           
-          <Route exact path="/contactus">
-          <Header path="/header"></Header>
-            <ContactUs></ContactUs>
-            <Footer></Footer>
+          <Route exact path="/contactus">        
+            <ContactUs></ContactUs>           
           </Route>
 
-
-          <Route exact path="*">
-            <NotFound></NotFound>
+          <Route exact path="*">          
+            <NotFound></NotFound>           
           </Route>
 
         </Switch>
+        <Footer></Footer>
       </Router>
       
 

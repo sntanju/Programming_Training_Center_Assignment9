@@ -3,10 +3,10 @@ import './Cources.css'
 
 const Cources = () => {
 
-    const [cources, setCources] = useState([]);
+    const [cources, setCources] = useState([]);   //Set Data In a State
 
 
-    useEffect( () => {
+    useEffect( () => {                            //Loaded Data From API(FakeData)
         fetch('./data.JSON')
         .then(res => res.json())
         .then(data => setCources(data))
@@ -16,7 +16,7 @@ const Cources = () => {
         <div>
             <div className="cources">
                 {
-                    cources.map( (course) =>
+                    cources.map( (course) =>     //Used Map For Displaying Data In UI
                     
                         <div className="course">
                             <img src={course.img} alt="" />
