@@ -1,8 +1,9 @@
 .header-container {
-   
-}
-.header {
-    text-align: center;
-    background-color: lightseagreen;
+   /* background-image: url('https://www.freestudy.com/wp-content/uploads/2019/06/best-programming-courses-1-800x500.jpg'); */
+   display: flex;
+   background-color:gray;
+    color:white;
     padding: 20px;
+    justify-content: space-between;
+  
 }

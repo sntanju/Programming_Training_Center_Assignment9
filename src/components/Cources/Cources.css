@@ -1,7 +1,7 @@
 .cources {
     margin: 5px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
 
 }
 .course {
@@ -14,4 +14,12 @@
     margin-top: 10px;
     width: 200px;
     height: 200px;
+}
+.detail-btn {
+    background-color: lightseagreen;
+    color: white;
+    border: 1px solid silver;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
 }

@@ -22,6 +22,7 @@ const Cources = () => {
                             <img src={course.img} alt="" />
                             <h2 className="text-success mt-3">{course.name}</h2>
                             <h4 className="text-primary mt-3">Price: ${course.price}</h4>
+                            <button className="detail-btn">Course Details</button>
                         </div>
                     )
                 }
